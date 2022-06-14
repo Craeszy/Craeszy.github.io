@@ -1,2 +1,4 @@
 [submodule "https://github.com/sanjinhub/hexo-theme-geek.git"]
 	url = themes/geek
+[submodule "themes/geek"]
+	url = https://github.com/sanjinhub/hexo-theme-geek.git
