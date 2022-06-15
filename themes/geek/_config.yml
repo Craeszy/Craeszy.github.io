@@ -1,6 +1,6 @@
 logo_title: Craeszy
 
-style: black
+style: white
 
 favicon: /favicon.ico
 
@@ -15,8 +15,8 @@ menu:
 # 若关闭valine 设置enable为false
 valine:
   enable: true
-  appId: CmCti21ooOOIzFOhEyFkFvR0-gzGzoHsz
-  appKey: FqiyUqbg7McKN2eG0MCewupf
+  appId: OXrSWSyQYMbi1pjVdlSzo4zr-MdYXbMMI
+  appKey: 7vCJSgcqz0kJ2gNFhPJUGMc1
 
 highlight:
-  enable: false
+  enable: true
