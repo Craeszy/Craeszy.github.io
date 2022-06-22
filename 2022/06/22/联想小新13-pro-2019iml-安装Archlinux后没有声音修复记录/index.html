@@ -30,7 +30,8 @@
     </div>
     <div class="post-content">
         <h2 id="安装pulseaudio、pulseaudio-alsa后系统显示无声音"><a href="#安装pulseaudio、pulseaudio-alsa后系统显示无声音" class="headerlink" title="安装pulseaudio、pulseaudio-alsa后系统显示无声音"></a>安装pulseaudio、pulseaudio-alsa后系统显示无声音</h2><p>在联想小新13 pro 2019iml安装win10&amp;&amp;Archlinux双系统后，archlinux下没有声音</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1.确认声卡</span><br><span class="line">sudo lspci | grep audio</span><br><span class="line">sudo lspci -v</span><br></pre></td></tr></table></figure>
+<p>确认声卡</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo lspci | grep audio</span><br><span class="line">sudo lspci -v</span><br></pre></td></tr></table></figure>
 
 <p>经测试，系统没有读取到声卡</p>
 <h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>修改grub文件内容</p>
