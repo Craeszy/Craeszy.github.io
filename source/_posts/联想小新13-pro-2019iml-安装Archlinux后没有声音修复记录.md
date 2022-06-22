@@ -8,8 +8,9 @@ tags: Arch Linux
 
 在联想小新13 pro 2019iml安装win10&&Archlinux双系统后，archlinux下没有声音
 
+确认声卡
+
 ```bash
-1.确认声卡
 sudo lspci | grep audio
 sudo lspci -v
 ```
