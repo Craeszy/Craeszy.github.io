@@ -15,8 +15,8 @@ menu:
 # 若关闭valine 设置enable为false
 valine:
   enable: true
-  appId: OXrSWSyQYMbi1pjVdlSzo4zr-MdYXbMMI
-  appKey: 7vCJSgcqz0kJ2gNFhPJUGMc1
+  appId: 'OXrSWSyQYMbi1pjVdlSzo4zr-MdYXbMMI'
+  appKey: '7vCJSgcqz0kJ2gNFhPJUGMc1'
 
 highlight:
   enable: true

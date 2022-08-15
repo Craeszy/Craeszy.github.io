@@ -34,3 +34,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="${原有配置不要动} snd_hda_intel.dmic_detect=0
 
 保存后退出重启即可
 
+或者安装sof-firmware包：
+
+```bash
+sudo pacman -S sof-firmware
+```
